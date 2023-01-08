@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#EE007B</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#ABE4DF</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="main_activity_bg">#05AF9F</color>
+    <color name="main_activity_txtColor">#C0C5C5</color>
+    <color name="main_activity_btnColor">#20756E</color>
+    <color name="rBtn_redColor">#E30618</color>
+    <color name="rBtn_greenColor">#62CA66</color>
+    <color name="splashScreenTxtColor">#807E7D</color>
+    <color name="trans">#00000000</color>
+
+</resources>
+
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bgcolor"
+    tools:context=".SplashScreenActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ARKADAŞLIK TESTİ"
+        android:fontFamily="@font/orange_juice"
+        android:textColor="#AAE3E1"
+        android:textSize="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="120dp"/>
+
+    <ProgressBar
+        android:id="@+id/splashScreenAvtivity_progressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="180dp"
+        android:max="100"
+        android:min="0"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/splashScreenAvtivity_progressBar"
+        android:layout_marginTop="5dp"
+        android:text="Durum"
+        android:id="@+id/splashScreenActivity_txtView"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintRight_toRightOf="@+id/splashScreenAvtivity_progressBar"
+        app:layout_constraintLeft_toLeftOf="@+id/splashScreenAvtivity_progressBar"
+        android:textColor="@color/main_activity_txtColor"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

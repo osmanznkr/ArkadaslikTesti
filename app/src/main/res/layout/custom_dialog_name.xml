@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="7dp"
+    android:background="@drawable/main_bgcolor">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1D6761">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:id="@+id/custom_dialog_name_txtView"
+            android:text="İsminiz"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="23sp"/>
+
+
+        <ImageView
+            android:id="@+id/custom_dialog_imgClose"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="imgClose"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_close" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/custom_dialog_name_editTxt"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:hint="İsminizi Girin..."
+            android:minHeight="48dp"
+            android:textAlignment="center" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/custom_dialog_btnSave"
+            android:layout_gravity="center"
+            android:layout_below="@+id/custom_dialog_name_editTxt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btn_bg"
+            android:text="KAYDET"
+            android:onClick="customDialog_saveBtn"
+            app:backgroundTint="@color/main_activity_btnColor" />
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
